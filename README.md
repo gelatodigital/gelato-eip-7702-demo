@@ -1,4 +1,4 @@
-# EIP-7702 Next.js Demo with Passkeys
+# EIP-7702 Demo with Passkeys
 
 This demo showcases the implementation of EIP-7702 with Passkey authentication in a Next.js application. The application demonstrates a secure and user-friendly way to interact with blockchain using WebAuthn (Passkeys) for authentication.
 
@@ -81,13 +81,6 @@ export async function execute({
 - **Real-time Feedback**: Provides transaction status and confirmation
 - **Error Handling**: Comprehensive error management and user feedback
 
-## Dependencies
-
-- Next.js 15.0.3
-- Viem 2.21.28
-- WebAuthn-p256 0.0.10
-- React 19.0.0-rc
-- TailwindCSS for styling
 
 ## Security Features
 
@@ -104,11 +97,4 @@ The demo operates on a custom blockchain network with the following features:
 - Smart contract verification
 - Real-time transaction tracking
 
-## User Interface
 
-The application provides a modern, intuitive interface with:
-- Clean header navigation
-- Real-time transaction status
-- Interactive NFT marketplace
-- Terminal-style logging
-- Transaction confirmation modals
