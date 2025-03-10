@@ -45,22 +45,22 @@ const guardians: Guardian[] = [
   {
     id: 1,
     name: "Tyde",
-    image: "https://anichess.com/static/media/story-6.50b7eb8fe21bc74b8710.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/explorer-assets.appspot.com/o/assets%2Feip-7702%2Fstory-6.50b7eb8fe21bc74b8710.png?alt=media&token=d994c9b7-3a6f-4e46-ab15-77039c27bd29",
   },
   {
     id: 2,
     name: "Ignis",
-    image: "https://anichess.com/static/media/story-7.92adc9badf10d5ee1d7f.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/explorer-assets.appspot.com/o/assets%2Feip-7702%2Fstory-7.92adc9badf10d5ee1d7f.png?alt=media&token=ea0f9038-7a67-49f0-ae5a-df8c904a774b",
   },
   {
     id: 3,
     name: "Tempest",
-    image: "https://anichess.com/static/media/story-8.bbb546d81d8815bb5b28.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/explorer-assets.appspot.com/o/assets%2Feip-7702%2Fstory-8.bbb546d81d8815bb5b28.png?alt=media&token=9ea75f16-41d5-4d0d-9f0f-c54d452989fd",
   },
   {
     id: 4,
     name: "Acre",
-    image: "https://anichess.com/static/media/story-9.cb77c3ffaec97418604f.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/explorer-assets.appspot.com/o/assets%2Feip-7702%2Fstory-9.cb77c3ffaec97418604f.png?alt=media&token=d763e38d-4592-433e-ab82-95a9e38e5203",
   },
 ];
 

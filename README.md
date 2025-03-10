@@ -1,4 +1,4 @@
-# Anichess Marketplace - EIP-7702 Demo
+# Gelato 7702 Demo
 
 This demo showcases the implementation of EIP-7702 with Passkey authentication in a Next.js application. The application demonstrates a secure and user-friendly way to interact with blockchain using WebAuthn (Passkeys) for authentication.
 
