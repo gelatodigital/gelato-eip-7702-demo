@@ -59,6 +59,7 @@ export default function Home({}: HomeProps) {
       addLog("Account setup completed successfully.");
     }
     if (error) {
+      console.log('CHECJCJECJEJ')
       addLog(
         <span className="text-red-400">
           An error has occurred:{" "}
