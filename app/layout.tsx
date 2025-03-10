@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: "https://raas.gelato.network/images/favicon.ico",
+    icon: '/favicon.ico',
   },
 };
 
@@ -35,9 +35,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning
       >
         <Providers>{children}</Providers>
       </body>
