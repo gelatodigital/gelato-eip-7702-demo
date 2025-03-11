@@ -34,7 +34,7 @@ export default function Header({ isLoggedIn, onLogin, addLog, walletAddress, set
   <div className="flex items-center">
     {/* <span className="text-[#00AEFA] font-semibold mr-2">Logged In</span> */}
     {walletAddress && (
-      <a target={"_blank"} href={`https://chess.cloud.blockscout.com/address/${walletAddress}`} className="text-white hover:text-[#00AFFA]/80 transition-colors duration-200">
+      <a target={"_blank"} href={`https://gelato-eip7702-demo.cloud.blockscout.com/address/${walletAddress}`} className="text-white hover:text-[#00AFFA]/80 transition-colors duration-200">
         {shortenAddress(walletAddress)}
       </a>
     )}

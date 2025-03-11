@@ -47,7 +47,7 @@ export default function Home({}: HomeProps) {
         <>
           Wallet generated.{" "}
           <a
-            href={`https://chess.cloud.blockscout.com/tx/${hash}`}
+            href={`https://gelato-eip7702-demo.cloud.blockscout.com/tx/${hash}`}
             target="_blank"
             rel="noopener noreferrer"
             className="underline underline-offset-2 hover:opacity-80"
@@ -76,7 +76,7 @@ export default function Home({}: HomeProps) {
       <>
         Account connected:{" "}
         <a
-          href={`https://chess.cloud.blockscout.com/address/${account.address}`}
+          href={`https://gelato-eip7702-demo.cloud.blockscout.com/address/${account.address}`}
           target="_blank"
           rel="noopener noreferrer"
           className="underline underline-offset-2 hover:opacity-80"

@@ -93,7 +93,7 @@ export async function execute({
 ## Network Information
 
 The demo operates on a custom blockchain network with the following features:
-- Block explorer: https://chess.cloud.blockscout.com
+- Block explorer: https://gelato-eip7702-demo.cloud.blockscout.com
 - Smart contract verification
 - Real-time transaction tracking
 

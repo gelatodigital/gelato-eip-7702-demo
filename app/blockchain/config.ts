@@ -23,7 +23,7 @@ export const chess = defineChain({
   blockExplorers: {
     default: {
       name: "Block Scout",
-      url: "https://chess.cloud.blockscout.com/",
+      url: "https://gelato-eip7702-demo.cloud.blockscout.com/",
     },
   },
   contracts: {},

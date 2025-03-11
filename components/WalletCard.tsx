@@ -11,7 +11,7 @@ const WalletCard = ({ address }: { address: string }) => {
     const contractAddress = collection === 'Sloth1'
       ? Tyde.address
       : Ignis.address;
-    return `https://chess.cloud.blockscout.com/token/${contractAddress}/instance/${tokenId}`;
+    return `https://gelato-eip7702-demo.cloud.blockscout.com/token/${contractAddress}/instance/${tokenId}`;
   };
 
   return (
@@ -20,7 +20,7 @@ const WalletCard = ({ address }: { address: string }) => {
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-xl font-bold text-white">Your Wallet</h2>
           <a
-            href={`https://chess.cloud.blockscout.com/address/${address}?tab=tokens_nfts`}
+            href={`https://gelato-eip7702-demo.cloud.blockscout.com/address/${address}?tab=tokens_nfts`}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 text-sm text-zinc-400 hover:text-white transition-colors"
