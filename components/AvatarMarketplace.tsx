@@ -211,7 +211,7 @@ export default function AvatarMarketplace({
   return (
     <div className="p-4 sm:px-8 pb-8 md:pb-0 bg-black w-full max-w-[1200px]">
       <h2 className="text-2xl font-bold mb-8 text-center text-white drop-shadow-md">
-        Sloths Marketplace
+        NFTs Marketplace
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8">
         {listings.map((listing) => (
@@ -275,7 +275,7 @@ export default function AvatarMarketplace({
                     </div>
                   </div>
                   <h3 className="text-xl font-semibold mb-4 sm:mb-8 text-white text-center">
-                    Sloths Bundle
+                    NFTs Bundle
                     {/*{listing.guardians[0].name} + {listing.guardians[1].name} Bundle*/}
                   </h3>
                 </div>

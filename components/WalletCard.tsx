@@ -8,7 +8,7 @@ const WalletCard = ({ address }: { address: string }) => {
   const { data: nfts = [], isLoading } = useNFTs(address as Address);
 
   const getExplorerLink = (collection: string, tokenId: number) => {
-    const contractAddress = collection === 'Sloth1'
+    const contractAddress = collection === 'NFT1'
       ? Tyde.address
       : Ignis.address;
     return `https://gelato-eip7702-demo.cloud.blockscout.com/token/${contractAddress}/instance/${tokenId}`;

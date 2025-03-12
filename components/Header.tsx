@@ -22,7 +22,7 @@ export default function Header({ isLoggedIn, onLogin, addLog, walletAddress, set
   return (
     <header className="w-full bg-[#101010] py-4 px-8 flex justify-between items-center">
       <div className="flex flex-col md:flex-row gap-x-4 items-start md:items-center">
-        <span className="text-xl flex flex-row"><span className="mr-4 hidden md:block"></span>Gelato 7702 Demo</span>
+        <span className="text-xl flex flex-row"><span className="mr-4 hidden md:block"></span>Gelato EIP 7702 Demo</span>
       </div>
       {!isLoggedIn && (
         <Button onClick={handleLogin}
