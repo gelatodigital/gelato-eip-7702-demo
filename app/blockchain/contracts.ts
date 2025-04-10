@@ -1,5 +1,5 @@
 export const ExperimentDelegation = {
-  address: "0x0c3E7A7B6D1e0f26e87CE3BFA19616c8062Db3bB",
+  address: "0x5B91C8E7a2DEABC623E6Ab34E8c26F27Cc18bC66",
   "abi": [
     {
       "inputs": [],
@@ -1227,7 +1227,7 @@ export const Tyde = {
       "type": "function"
     }
   ],
-  address : "0x6F9A3AC224025B0A9E7b7F47dcb1DF7872e2fA75"
+  address : "0x2BF28B8675E4eE0cD45Bd4150DbaA906CF72c935"
 } as const
 
 export const Ignis = {
@@ -1652,5 +1652,5 @@ abi:[
     "type": "function"
   }
 ],
-address: '0x454ee707F0e0745b2579D715F3B796B980aF272d',
+address: '0x9ebdA09DE384650aA51f572ECE839608F4a09e28',
 } as const

@@ -47,7 +47,7 @@ export default function Home({}: HomeProps) {
         <>
           Wallet generated.{" "}
           <a
-            href={`https://gelato-eip7702-demo.cloud.blockscout.com/tx/${hash}`}
+            href={`https://explorer.abc.t.raas.gelato.cloud/tx/${hash}`}
             target="_blank"
             rel="noopener noreferrer"
             className="underline underline-offset-2 hover:opacity-80"
@@ -59,7 +59,7 @@ export default function Home({}: HomeProps) {
       addLog("Account setup completed successfully.");
     }
     if (error) {
-      console.log('CHECJCJECJEJ')
+    
       addLog(
         <span className="text-red-400">
           An error has occurred:{" "}
@@ -76,7 +76,7 @@ export default function Home({}: HomeProps) {
       <>
         Account connected:{" "}
         <a
-          href={`https://gelato-eip7702-demo.cloud.blockscout.com/address/${account.address}`}
+          href={`https://explorer.abc.t.raas.gelato.cloud/address/${account.address}`}
           target="_blank"
           rel="noopener noreferrer"
           className="underline underline-offset-2 hover:opacity-80"
